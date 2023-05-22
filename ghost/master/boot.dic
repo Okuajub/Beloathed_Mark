@@ -1,0 +1,145 @@
+OnFirstBoot //Dialogue when you first open the ghost
+{
+	FirstBootVars //Initialize all your variables at the very bottom!
+	
+	"\t"
+	--
+	if reference0 == 0 //Very first boot - this dialogue finishes over in nameteach.dic after the user gives their name, make sure you check there.
+	{
+		"\1\s[-1]\0\s[0]oh.\w8 hi.\w8\w8 Huh. well This place is pretty fucking weird...\w8\w8\n\n[half]well anyway. i'm mark.\w8\w8 and you?\w4?"
+	}
+	else //Reference0 is the number of times you've uninstalled the ghost, so this is if you're reinstalling them.
+	{
+		"\1\s[-1]\0\s[0]Hey.\w8\w8 It's me again.\w8\w8 i hope you won't uninstall me again. Anyway. Give me your name and credit card number and the three numbers on the back so I know its you. Or just your name, I guess. That works too."
+	}
+	--
+	"\![open,inputbox,OnFirstNameTeach]\_l[-10000,-10000]\*\q[ ,__VERY_FIRST_BOOT__]"
+	//Don't erase the \q tag there! That prevents the box from being closed or timing out before the user inputs their name. If you make significant changes to the first boot, you may want to erase that. There are bits of code that deal with this in etc.dic, use ctrl F to find them. IF THIS GIVES YOU ISSUES PLEASE LET ME KNOW, but I think it should be a lot better than the variable solution I had previously.
+}
+
+OnInitialize
+{
+	//If you want some variables to reset on boot, put them here. This event will happen even if you add other events like OnGhostChanged
+	
+	//If you add new variables in updates, I recommend initializing them like so:
+	//if !ISVAR("NewVariable"); NewVariable = 0
+	//This means that it will only set the new variable if the user doesn't already have it, so that their variables don't get overwritten
+	
+	if reference0 != "reload" //For things you want to reset EXCEPT when just reloading; a convenience for you the dev, basically
+	{
+		LastTalk = ""
+	}
+}
+
+OnBoot //Normal booting
+{
+	BootVars //This sets variables you want to be set on a normal boot, like resetting the variable that saves the previous dialogue. Again, make sure you set these up at the bottom.
+	_timesince = FUNCTIONEX("saori/time_check.dll","how_many_days",lastclosed[0],lastclosed[1],lastclosed[2],0,0,0)
+	_timesince *= -1 //Multiply it by -1 to get rid of the negative sign, or to add one if the user traveled back in time.
+	"\1\s[-1]" //This line ensures the Kero character does not appear. Feel free to remove if you want a Kero.
+	--
+	if _timesince < 0 //If the user has changed their clock backwards
+	{
+		"\0\s[0]\i[5]What? This is some timey wimey bullshit?? Why are we in the past. Maybe you're trying to get that one Stanely Parable achievement or something.\e"
+	}
+	elseif "%(month)/%(day)" == birthday[1] //If you want to write dates as DD/MM, feel free to swap this around. Also, feel free to add any other holidays you like here. Some ideas would be April Fools, Christmas, Halloween, your character's birthday, etc.
+	{
+		hadBirthday += 1
+		"\0\s[0]\i[5]\p[3]\s[9991]\0\s[0]Happy birthday, dude. Look, I brought you a cake.\i[6] Or a piece of it, I guess. Ignore that the candle isn't lit. I don't have a lighter.\i[5] I also didn't know what flavor you like so, it's just yellow flavored. Not vanilla, the box said 'yellow', whatever that means. I don't know, I didn't eat it.\i[6] Uh. Look, I'm not good at these kinds of things. If you wanna throw it out or whatever just double click it and it'll go away.\e"
+	}
+	else
+	{
+		NormalBoot
+	}
+}
+
+NormalBoot : pool
+{
+	"\0\s[0]welcome back to my youtube channel please leave a like and a comment below"
+	"\0\s[0]hello everybody my name is markiplier"
+	"\0\s[0]hey everybody please welcome my new twitch follower %(username) to the channel"
+	"\0\s[0]hey there have you ever considered ?"
+	"\0\s[0]thank you, murderers and plumbers, for attending my christening ceremony today."
+	"\0\s[0]hey.\w8\w8 do you think that animals go to hell when they die?\w8 i know fish don't, because they survived the flood. i don't remember the entire reasoning but it seemed right."
+	"\0\s[0]hey. i heard it's updog today."
+	"\0\s[0]yo. are you going to PoppinGamer this year?"
+	"\0\s[0]you just lost the game. lolololol"
+	//---
+	if timeslot == "earlymorning"
+	{
+		"\0\s[0]\i[9]girl what Hour is This\e"
+		"\0\s[0]\i[7]i am falling asleep with my eyes open\e"
+		"\0\s[0]whasdupwhats up i'm awake i promise i wasn't asleep\e"
+	}
+	if timeslot == "morning"
+	{
+		"\0\s[0]yo. what's new. i gotta take my meds soon.\e"
+	}
+	if timeslot == "lunch"
+	{
+		"\0\s[0]yooo. hey. since you brought me here. you got a snack?\e"
+	}
+	if timeslot == "afternoon"
+	{
+		"\0\s[0]What if we were airplanes in the night sky were like shooting stars?\e"
+	}
+	if timeslot == "evening"
+	{
+		"\0\s[0]have you considered living life as a bee. Jerry seinfeld did for a bit and that worked out for him real well i saw\e"
+	}
+	if timeslot == "latenight"
+	{
+		"\0\s[0]i got your voice mail message. what's up.\e"
+	}
+	if timeslot == "midnight"
+	{
+		"\0\s[0]i'm freaking loony like the moon-y right now. whaddya doin'?\e"
+	}
+}
+
+OnClose : pool
+{
+	CloseVars
+	
+	if x.up_mins >= 5 //If the ghost has been open longer than 5 minutes.
+	{
+		"\0\s[0]Cya!"
+		
+		if timeslot == "earlymorning"
+		{
+			"\0\s[0]It's very early!"
+		}
+		if timeslot == "morning"
+		{
+			"\0\s[0]It's early!"
+		}
+		if timeslot == "lunch"
+		{
+			"\0\s[0]It's lunchtime!"
+		}
+		if timeslot == "afternoon"
+		{
+			"\0\s[0]It's the afternoon!"
+		}
+		if timeslot == "evening"
+		{
+			"\0\s[0]It's the evening!"
+		}
+		if timeslot == "latenight"
+		{
+			"\0\s[0]It's getting late!"
+		}
+		if timeslot == "midnight"
+		{
+			"\0\s[0]It's very late!"
+		}
+	}
+	else //If the ghost has been open less than 5 minutes.
+	{
+		"\0\s[0]Done so soon?\w8\w8 later."
+		"\0\s[0]updating ssp or someshit? cool. see ya."
+		"\0\s[0]nighty night dude"
+	}
+	--
+	"\w8\w8\-\e"
+}

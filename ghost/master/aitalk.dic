@@ -1,0 +1,450 @@
+OnAiTalk
+{
+	if CHAIN.IDName == ""
+	{
+		LastTalk = RandomTalk
+	}
+	else
+	{
+		LastTalk = ChainTalk
+	}
+	LastTalk
+}
+
+RandomTalk : nonoverlap_pool
+{
+
+	"\0\s[0]\i[9]You know what really irritates me.\i[20] those stupid snaps they started putting on the backs of hats. like, they are 10x worse than buckles!\s[0]\i[9] it's so fucking stupid, i swear. i hate their guts. 'they' being whoever invented those stupid fucking plastic snaps."
+
+	"\0\s[0]\i[9]\i[22]\i[23]if you think my arms are freakishly long, well you're not wrong. But look i just have different proportions than you.\nalso the sweater's flared sleeves don't really help.\nthats not how you use the word flared in clothes terms but you get what I mean."
+	
+	"\0\s[0]\i[7]you know I use all pronouns but most people default to he and stuff. its nice when people mix it up. you know, a zany 'zhe' or something."
+	
+	"\0\s[0]I'm a weirdo. I don't fit in, and I don't WANT to fit in. Have you ever seen me without this stupid hat on? That's weird."
+
+	"\0\s[0]i was going to say something about what if when jesus came back to life he was british for no reason but realized it has nothing to do with anything"
+
+	"\0\s[0]Shark Jesus. Shark abortion. Sharknado. Virus Shark."
+
+	"\0\s[0]kill people with hammers"
+
+	"\0\s[0]killing people with my mind powers"
+
+	"\0\s[0]when i go to hell my ass is on ronald reagan in 0.2 nano seconds. Mark heaven also functions as Ronald Reagan hell pretty efficient system\echain=reagan"
+
+	"\0\s[0]is jesus in the water \n\n[half]\w8i'm allergic to jesus sorry \n\n[half]\w8is this salad jf? (jesus-free?)"
+
+	"\0\s[0]Hi, I'm Mark. I repented my sins ten years ago, and I've only gotten better since. I used to have many violent thoughts of cats fighting each other, giving birth and their pagan religion. But ever since I committed myself to Jesus, not a single sinful thought has entered my head."
+
+	"\0\s[0]me when glup shitto doesn't appear in this issue of Dangerman when he's KNOWN for his mom having been shot by bank robbers so he always stops all the bank robbers in Atro City: i'm sending a death threat to this writer he doesn't fucking understand glup shitto like i do "
+
+	"\0\s[0]guard, bring out the wetness"
+
+	"\0\s[0]\f[size,14]\f[name,Footlight MT Light]Diners\n\f[name,Calibri]DRINERS\n\f[name,Bernard MT Condensed]DRIVINGS\n\f[name,Elephant]Dry Diners\n\f[name,arial]and\n\f[name,Cooper Black]DODS"
+
+	//i think this one is a bit much even though i said it in a non-sexual context LMFAO
+	//"\0\s[0]when you as a fetus ordered the extra long fourchette to hold more angular objects in your pussy"
+
+	"\0\s[0]i'm in the FUCKING BUILDING AGAIN- oh my goddd..."
+
+	"\0\s[0]i miss my wife, tails."
+
+	"\0\s[0]if it sucks, hit da bricks"
+
+	"\0\s[0]\f[size,20]you know how bongs and potion bottles are the same shape\f[size,default]\n\n[half]\w8\w8\w8\w8yeah"
+
+	"\0\s[0]i have decided, i am becoming Jerma.\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\n\n[half]Not in an irl way or a kin way. i am now on an indefinite mission to Kill and Replace Jerma."
+
+	"\0\s[0]image.png"
+
+	"\0\s[0]when i play minecraft i dont play it like minecraft. i play it like i'm a dwarf in dwarf fortress who was forcibly restrained into being inside minecraft"
+
+	"\0\s[0]bass hoe shop"
+
+	"\0\s[0]i like tumblr because at a certain point i re-read through all of the posts that happened between the last time i checked it and i am forced to endure an mmo-esque cooldown for new posts to show up"
+
+	"\0\s[0]i miss lucky luciano posts. what happened to lucky luciano. you used to love lucky luciano."
+
+	"\0\s[0]can tumblr please stop showing me the office full of mercury post"
+
+	"\0\s[0]imagine getting banned from social media for saying what big boss did to revolver ocelot\w8\w8\w8\w8\n\n[half]he fucked that old man"
+
+	"\0\s[0]my punpkin is empty, no meat left inside. no enrinchment for me"
+
+	"\0\s[0]i listened to electric feel the other day and now i get it\w8\w8\w8\w8\w8\w8\n\n[half]\n\f[bold,true]i said ooh, girl"
+
+	"\0\s[0]imagining reading an audio book about the Hindenburg, loudly, on an airplane"
+
+	"\0\s[0]i saw somebody whose dad used to make cottage cheese in butter noodles and i'm realizing i can just make whatever the fuck even if it comes out terrible"
+
+	"\0\s[0]i hate ben stiller"
+
+	"\0\s[0]actually, uhm, if i got to rule hell it would be a free for all an you could drink slurpees but they're umm made of LAVA an yah <3"
+
+	"\0\s[0]i'm going to call all of the reasons i leave emergencies now even if they aren't necessarily dangerous. Gamer emergency. Teethbrushing emergency. Taking an extra adderall emergency."
+
+	"\0\s[0]still not over the fact the car went to heaven and not Castiel. i haven't seen the show but that makes me so mad"
+
+	"\0\s[0]when i'm autism i look like the dog from toystory!"
+
+	"\0\s[0]god gives his most difficult tasks to his most autistic soldiers."
+
+	"\0\s[0]i'm joining the war on autism. on the side of autism"
+
+	"\0\s[0]you know me being a communist is pretty fucking funny when you consider i'm literally red all over"
+
+	"\0\s[0]i don't know how to read a balance sheet but i sure do know how to gut a rabbit without a knife"
+
+	"\0\s[0]Hrmhgmh.. So, I should turn right and find Doctor Pussyman there, huh?"
+
+	"\0\s[0]do i have one coherent thought left in my body? 1 in 10 doctors say yes."
+
+	"\0\s[0]dude on campus named with bud/budself pronouns who TOTALLY isn't dealing"
+
+	"\0\s[0]yeah the c-section done at the storming of Normandy. do you remember. do you remember that. do you remember when legendary soldier The Boss has a c-section during the storming of normandy."
+
+	"\0\s[0]Sorry Link.\w4 I Don't Give Credit! COme back when your\w2 a little MMMMMMMMMMMM \w4.   RICHER"
+	
+	"\0\s[0]I have a love-hate relationship with UNO. the game, not the number. on one hand, it is so funny to screw other people over.\i[9] on the other hand, it is SO INFURIATING when YOU get screwed over.\w8\w8\0\s[0]\i[7] at the end of the day though, it's hanging out with friends and always a good time."
+
+	//tics
+
+	"\0\s[0]gayass"
+
+	"\0\s[0]gandalf big naturals"
+
+	"\0\s[0]Penis music."
+
+	"\0\s[0]wikpidea"
+
+	"\0\s[0]goobuhbuh"
+
+	"\0\s[0]a dracula"
+
+	"\0\s[0]penis serious, penis delirious"
+
+	"\0\s[0]i can't stand this indecision married with a lack of vision"
+
+	"\0\s[0]wellll excuuuuuuuuuse Me, Princess!"
+
+	"\0\s[0]BITETHESTICKBITETHESTICKBITETHESTICK"
+	
+	
+	//---Timeslots---
+
+	case timeslot
+	{
+		when "earlymorning" //5am - 8am
+		{
+			if totalhours >= 3 //Been open for 3 hours or more, so the user has probably been up all night
+			{
+				"\0\s[0]yooo, sure you're not falling asleep over there? pretty damn early"
+				"\0\s[0]heyyyy. hey. are you awake. yo. dog. is this thing on."
+			}
+			else //Probably just got up
+			{
+				"\0\s[0]i am so sleeby"
+				"\0\s[0]i'm just gonna sleep with my eyes open."
+			}
+		}
+		when "morning" //9am - 11am
+		{
+			"\0\s[0]this is more my speed, honestly. i'm not a morning person by any means, so if i'm up before then something is wrong."
+			{
+				"\0\s[0]i want some breakfast. not necessarily like in being actually hungry but just thinking about it makes me want it. like a commercial. you know, "
+				--
+				{
+					{
+						"\0\s[0]cereal is pretty dope. you eat it? i'm craving some "
+						--
+						{
+							"cheerios. but not those boring ass normal ones. i like the peanut butter and chocolate ones. the fruit ones are barfy."
+							"special k strawberry or something. i'm not a health nut but i am an absolute FREAK for those dried strawberries bro."
+							"cinnamon toast crunch. that shit is straight up just sugar."
+						}
+					}
+					{
+						"pancakes. man i love pancakes. you like 'em with stuff inside? i go insane for choccy chip pancakes.\w8\w8 don't even try to keep me away from them. you will not survive."
+						"do you like waffles? yes i like waffles. do you like pancakes? yes i like pancakes. do you like french toast? no, actually. i'm not into wet, eggy bread. Frozen stuffs fine though."
+						"i can't really eat food since it just falls out of my body and makes a mess. but tasting it still is a lot of fun."
+					}
+				}
+			}
+			"i need to take my meds now or else i'm crawling the walls at 2am. ""as if you don't do that normally"" yeah? and?"
+		}
+		when "lunch" //12pm - 2pm
+		{
+			"yoooo this time is making me hungry. Cause i eat your time or i don't know"
+			"do you think animals know how much i love them. because i need them to know that."
+		}
+		when "afternoon" //3pm - 5pm
+		{
+			"you got games on your phone?"
+			"i always get hungry around now. ""you're always hungry"" if you don't have anything helpful to say don't say it. Sourry lost in my own worl.d "
+		}
+		when "evening" //6pm - 8pm
+		{
+			"Don't let The Killer get you"
+			"long-time sunshine longtime i don't want to do this anymore actually"
+		}
+		when "latenight" //9pm - 12am
+		{
+			"this is prime The Killer hours. be careful."
+			"did Wendy tell you about The Killer?"
+			"The Killer is not like. jeff the killer. that's fucking baby shit. The Killer is no joke. no babyshit."
+			"have you seen The Killer recently? no? that's not a good thing. you should always keep your eyes on The Killer."
+			"the killer is definitely real i promise"
+			"Watch out for the Killer."
+			"look out for The Killer"
+			"don't you ever think about a The Killer? i do. What if he's The Killer."
+			"\w4.\w4\w4.\w4. \w8\w8\w8\w8\w8 The Killer may be nearby."
+			"i'lll protect you from The Killer"
+			"sometimes, i get scared that things in the night are The Killer. but as long as i can definitively distinguish the object, the Killer is gone."
+		}
+		when "midnight" //1am - 4am
+		{
+			
+		}
+		}
+	//---Days of the week---
+	case wd
+	{
+		when "Sun"
+		{
+			"\0\s[0]It's sunday, I guess. I'm not the god fearing kind so I don't really know what to do with myself on sunday."
+			"\0\s[0]You've probably got the day off, right %(username)? because it's sunday? do anything fun? or you one of those guys with "
+		}
+		when "Mon"
+		{
+			"\0\s[0]di-\w4di-\w4di-\w4di-\w4digimon. di-\w4di-\w4di-\w4di-\w4digimonday."
+			"\0\s[9]i hate mondays.\s[7] just like bill murray.\w8\w8"
+		}
+		when "Tue"
+		{
+			"\0\s[0]Too. Two. To. To two too? to ""to two too 2"" too."
+		}
+		when "Wed"
+		{
+			
+		}
+		when "Thu"
+		{
+			
+		}
+		when "Fri"
+		{
+			
+		}
+		when "Sat"
+		{
+			"\0\s[0]soooooo, so anything fun this weekend?"
+			"\0\s[0]today is when people go out drinking, right. saturdays? i don't drink really. i forgot why i was thinking about this."
+		}
+	}
+	
+	//---Days in the month---
+	if day < 5 //4th and before, start of the month
+	{
+		
+	}
+	if day > 13 && day < 17 //14th-16th, halfway through
+	{
+		
+	}
+	if day > 26 //27th and after, end of the month
+	{
+		
+	}
+	
+	//---Months---
+	case month
+	{
+		when 1
+		{
+			
+		}
+		when 2
+		{
+			
+		}
+		when 3 //Spring start Northern, Autumn start Southern
+		{
+			
+		}
+		when 4
+		{
+			if day == 7; "its my freaking birthday today. Unreal"
+		}
+		when 5
+		{
+			
+		}
+		when 6 //Summer start Northern, Winter start Southern
+		{
+			
+		}
+		when 7
+		{
+			
+		}
+		when 8
+		{
+			
+		}
+		when 9 //Autumn start Northern, Spring start Southern
+		{
+			
+		}
+		when 10
+		{
+			
+		}
+		when 11
+		{
+			
+		}
+		when 12 //Winter start Northern, Summer start Southern
+		{
+			
+		}
+	}
+	
+	//---Seasons---
+	case season
+	{
+		when  "Spring"
+		{
+			"\0\s[0]\i[10]Spring has sprung!\w8\w8\0\s[0]\i[9] and it's giving me a %(expletive) headache. i hate allergies."
+			"\0\s[0]bugs and ticks and bugs and ticks and itchy and scratchy. spring is hell actually i think."
+			"\0\s[0]i need to use some of that shieldtec shit for the fleas and ticks. you know how fuckin hard it is to do a tick check with fur"
+		}
+		when  "Summer"
+		{
+			"\0\s[0]\i[9]It's so hot and sweaty..."
+			"\0\s[0]you should listen to oingo boingo i think."
+			"\0\s[0]\i[7]it's hot as HEELLL out there am i right hahaha.\w8\w8 Because Fuck"
+		}
+		when  "Autumn"
+		{
+			"\0\s[0]I love autumn. fall colors, halloween, apple cider donuts... it's just epic."
+			"\0\s[0]oingo boingo music is great in autumn, not just summer. deadman's party is 100% a halloween song. grey matter also. i think if you played little girls at a halloween party you might get some weird looks though."
+		}
+		when "Winter"
+		{
+			"\0\s[0]it's cold out,\w4 i kinda like the snow, but my fur helps. is it too cold for you? you probably have skin.\w4 uh. i hope you do. haha.\w8\w8. Hell"
+			"\0\s[0]i used to say that winter was my favorite season but actually i just liked staying inside all the time"
+			"\0\s[0]How do bitches fit in snow gear and not laugh their asses off making crinkling sounds all the way home"
+		}
+	}
+	
+	if (day == 31 && month == 10) || (day == 1 && month == 4)
+	{
+		"\0\s[2]\i[9]\i[10]\i[11]\i[16]\i[17]\i[20]\i[23]\i[19]\i[22]\i[18]\i[114]I AM A FREAK OF NATUUUUUUUUUUURE AAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHH          EEEEEEND MY SUFFERRINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG AAAHHHHHHHHHHHHHHHHHHHHHH BLEURGHEWEWGHERHGHEGER\w8\w8\w8\c\s[0]\i[13]Bwahahahaha! your face! being a ghost has some perks, alright? funny party tricks being one of them."
+	}
+	
+	//---Noticing and commenting on other ghosts---
+	//Remember that you have to check for the sakura name of another ghost, not the ghost name.
+	if "Girl" _in_ ghostexlist
+	{
+		"\0\s[0]hey, it's zar's template ghost,\w8\w8 hi girl.\e"
+	}
+	elseif "Snake" _in_ ghostexlist
+	{
+		"\0\s[0]\i[7]oh, hey it's like, those guys from Metal Gear. Hi Snake."
+		"\0\s[0]\i[7]I know these guys, Snake and Otacon. I wonder if they know me."
+		"\0\s[0]Hey! Snake! Kiss Otacon, like, right now.\w8\i[9] dude, I know you can hear me.\w8\w8\w8\s[0]\i[7] he's ignoring me. I bet he's embarassed, lol."
+		"\0\s[0]\i[7]Snake and Otacon sitting in a tree, K-I-S-S-I-N-G. lol."
+		"\0\s[0]\i[9]you know I always wondered if those two guys thought about how they both have brown hair and brown eyes. like, what a coincidence."
+		"\0\s[0]\i[7]hey. hey Otacon.\w8 Hey octagon.\w4 Hey Oculus Rift.\w8\w8 hey oatmeal\w4 Hey octopus Hey.\w4 hey can you Hear me, Otaku Convention? Hello??\w8\w8\i[9] whatever, i sound like Navi at the point."
+	}
+	elseif "Emily" _in_ ghostexlist
+	{
+		"\0\s[0]what you doin', girl?"
+		"\0\s[0]hey emily. Default Dance. i just said it outloud but imagine that i did it"
+	}
+
+	//"\0\s[0]A quick overview of the built in ways to address the user in this template, which are all decided through the SSP preferences:\w8\n%(username) %(they) %(them) %(their) %(theirs) %(themself)\w8\nAnd an example of the " + '%(p)' + " function: %(they) %(p('are','is')) working on a ghost"
+	
+	//chain starts
+
+	"\0\s[0]which snake is this one, andy?\w8\w8\e:chain=cakeboss"
+
+	"\0\s[0]\i[22]\i[23]GEEee, it Sure\s[0]\i[22] is\w4\s[0]\i[20] BORing around here\w8\w8\w8\s[0]\e:chain=zeldacdi"
+	"\0\s[0]when i go to hell my ass is on ronald reagan in 0.2 nano seconds. Mark heaven also functions as Ronald Reagan hell pretty efficient system\e:chain=reagan"
+
+}
+
+cakeboss
+{{CHAIN
+	"\0\s[0]i'm literally consulting the chart you gave me and i don't know. \w8Big Snake. \w8snake boss.\w8 Fuck it. buddy valestro the Cake boss is my final answer.\e:chain=end"
+}}CHAIN
+
+zeldacdi
+{{CHAIN
+	"\0\s[0]\w8My \w2Boy. \w8This peace is what \f[bold,true]ALL\f[bold,default] \w2true warriors \w2strive for.\e"
+	"\0\s[0]\i[20]I JUST\0\s[0]\i[22] WONDER\s[0]\i[20] what\s[0]\i[22] GANON's\i[23] up to\s[0]\i[20]\w8\w8\s[0]"
+	"\0\s[0]SWEEESHOooghhhHUUUshhhh.. Your Maejisty..GANON \f[name,Segoe Script]andhisminions\f[name,default]  have SEIZED the island of \f[name,Segoe Script]\nKORIDAI"
+	"\0\s[0]\f[bold,true]Hmm\w4.\w4.\w4.\f[bold,default] How can we \w4Help?"
+	"\0\s[0]It Is Written: \f[name,Segoe Script]\w4Only \w4Li\w2nk can \w2Defeat \w2Ga\w2non.\f[name,default]"
+	"\0\s[0]\i[20]GRE\s[0]\i[22]AT\i[23] I\s[0]""LL\i[20] GRAB\i[23] M\s[0]Y\i[22] \i[23]ST\i[20]UFF\s[0]"
+	"\0\s[0]There is NO TIME!!\w2\w2You r \f[name,Segoe Script]Sword\f[name,default] \w2is \w2Enough."
+	"\0\s[0]\i[20]HOW \w2abo\s[0]ut a\i[20]\w2 \i[23]KISS\s[0] for\i[23] LU\i[22]CK??\w8\w8\s[0]"
+	"\0\s[0]You've got to be kidding."
+	"\0\s[0]\f[name,Segoe Script]SQUADALA!\f[name,default] We'reoff!\e:chain=end"
+}}CHAIN
+
+reagan
+{{CHAIN
+	"\0\s[0]\i[9]sorry i thought about ronald reagan and now i'm literally so mad."
+	"\0\s[0]my boy reagan when he thinks starwars is real"
+	"\0\s[0]you should listen to the song reagan by killer mike"
+	"\0\s[0]ronald reagan is a bitch-ass mother fucker"
+	"\0\s[0]when i find him it's on sight"
+	"\0\s[0]i'm Ronald Reagan's the Killer."
+	"\0\s[0]ronald reagan is a FORMER u.s. president and also already dead (rest in %(expletivenoun) mfer) so i can threaten him all i want"
+	"\0\s[0]anyway fuck ronald reagan\e:chain=end"
+}}CHAIN
+
+OnMinuteChange
+{
+	if hour == 0 && minute == 0; AutoUpdates[1] = 0 //Resetting auto updates
+	
+	if minute == 0 && HourNotifs == "On" //Top of the hour notifications
+	{
+		if hour == 0
+		{
+			if day == 1 && month == 1
+			{
+				"\0\s[0]Happy new year!\e"
+			}
+			else
+			{
+				"\0\s[0]It's midnight.\e"
+			}
+		}
+		elseif hour == 12
+		{
+			"\0\s[0]It's noon.\e"
+		}
+		else
+		{
+			"\0\s[0]It's %(hour12) o'clock.\e"
+		}
+	}
+	elseif ARRAYSIZE(offscreen) > 0 //If the ghost is off the screen, it will run the off screen dialogue every minute
+ 	{
+ 		OffscreenTalk
+	}
+	--
+	if AutoUpdates[0] == "On" && AutoUpdates[1] == 0 //Once a day the ghost will check for updates if the user has auto updates on
+	{
+		AutoUpdates[1] = 1
+		"\![updatebymyself,checkonly]"
+	}
+	
+}
+
+OnSurfaceRestore //OnSurfaceRestore happens around 30 seconds after the ghost's last dialogue. reference0 here stores the number of the previous surface, so you can have them comment when they change back if you like.
+{
+	"\1\s[-1]\0\s[0]\e"
+}

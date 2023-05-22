@@ -1,0 +1,16 @@
+charset,UTF-8
+
+name,Mark
+type,ghost
+
+shiori,yaya.dll
+
+craftman,ramora
+craftmanurl,https://en.wikipedia.org/wiki/Markiplier
+
+sakura.name,mark
+kero.name,0 twitch viewers
+
+icon,icon.ico
+
+sstp.allowunspecifiedsend,0
