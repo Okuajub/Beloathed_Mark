@@ -3,7 +3,7 @@
 charset,UTF-8
 type,ghost
 
-name,Beloathed Mark
+name,beloathed mark
 directory,beloathed_mark
 
 balloon.directory,minecraft_book
